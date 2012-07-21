@@ -1,8 +1,8 @@
 # diff
-“Ç‚Ý•ûF‚Å‚¡‚Ó
-ƒtƒ@ƒCƒ‹‚É‰Á‚¦‚ç‚ê‚½•ÏX“_‚ð•\Ž¦‚·‚é
+èª­ã¿æ–¹ï¼šã§ãƒãµ
+ãƒ•ã‚¡ã‚¤ãƒ«ã«åŠ ãˆã‚‰ã‚ŒãŸå¤‰æ›´ç‚¹ã‚’è¡¨ç¤ºã™ã‚‹
 
-$ git diff ƒ•ÏX‚ðŠm”F‚µ‚½‚¢ƒtƒ@ƒCƒ‹„
+$ git diff ï¼œå¤‰æ›´ã‚’ç¢ºèªã—ãŸã„ãƒ•ã‚¡ã‚¤ãƒ«ï¼ž
 
-—ájfile1.txt‚Æfile2.txt‚Ì·•ª‚ª•\Ž¦‚³‚ê‚é
+ä¾‹ï¼‰file1.txtã¨file2.txtã®å·®åˆ†ãŒè¡¨ç¤ºã•ã‚Œã‚‹
 `$ git diff -- file1.txt file2.txt`
