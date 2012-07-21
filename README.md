@@ -67,3 +67,14 @@ Last update: 2012.07.21
 ほかのリポジトリの変更点をローカルリポジトリにマージする
 
     git pull
+    
+# merge
+ローカルブランチのマージを行う
+
+    git merge <repository>
+
+# reset
+リポジトリをある状態に戻す。<paths>は'git log'で確認する。
+インデックスとワーキングツリーも戻す場合は --hard オプションを指定する。
+
+    git rest [--hard] [<paths>|HEAD]
