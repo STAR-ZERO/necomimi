@@ -53,3 +53,8 @@ git cheat-sheet by necomimi group
 
     git clone <repository>
 
+# reset
+リポジトリをある状態に戻す。<paths>は'git log'で確認する。
+インデックスとワーキングツリーも戻す場合は --hard オプションを指定する。
+
+    git rest [--hard] [<paths>|HEAD]
