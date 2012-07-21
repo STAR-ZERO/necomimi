@@ -15,3 +15,20 @@ about fast-forward
 
 [ 図で分かるgit-mergeの--ff, --no-ff, --squashの違い - アジャイルSEを目指すブログ](http://d.hatena.ne.jp/sinsoku/20111025/1319497900)
 
+
+about alias
+======
+
+Gitで使うコマンドを短く呼び出せるように別名を設定できる
+
+    git config --global alias.st status
+    git config --global alias.ci commit
+
+上の設定をすると
+
+    git st
+    git ci
+
+で、git status , git commit のコマンドを呼び出すことができる
+
+
