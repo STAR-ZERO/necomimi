@@ -1,8 +1,8 @@
 # branch
 
-* ブランチを表示する: 'git branch'
-* ブランチを作成する: 'git branch <branch>'
-* ブランチを削除する: 'git branch -d <branch>'
+* 繝悶Λ繝ｳ繝√ｒ陦ｨ遉ｺ縺吶ｋ: 'git branch'
+* 繝悶Λ繝ｳ繝√ｒ菴懈�舌☆繧�: 'git branch <branch>'
+* 繝悶Λ繝ｳ繝√ｒ蜑企勁縺吶ｋ: 'git branch -d <branch>'
 
 usage: git branch [options] [-r | -a] [--merged | --no-merged]
    or: git branch [options] [-l] [-f] <branchname> [<start-point>]
