@@ -1,4 +1,6 @@
+git cheat-sheet by necomimi group
 Last update: 2012.07.21
+=======
 
 # init
 まずはここから  
