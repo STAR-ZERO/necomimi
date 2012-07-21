@@ -19,3 +19,9 @@ git cheat-sheet by necomimi group
 作業内容をリポジトリに送信する
 
     git push <repository> <your branch>:<sendTo branch>
+
+# status
+変更が加えられたファイルを表示する
+
+    git status
+
