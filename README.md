@@ -1,10 +1,4 @@
 git cheat-sheet by necomimi group
-Last update: 2012.07.21
-=======
-
-# init
-まずはここから
-リポジトリを作成する
 
 # commit
 インデックス(ステージ)上のコンテンツをユーザーのメッセージと共にリポジトリに保存します。
@@ -78,3 +72,8 @@ Last update: 2012.07.21
 インデックスとワーキングツリーも戻す場合は --hard オプションを指定する。
 
     git rest [--hard] [<paths>|HEAD]
+
+# checkout
+ブランチの切り替え
+
+    git checkout <repository>
