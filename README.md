@@ -1,6 +1,4 @@
 git cheat-sheet by necomimi group
-======
-
 
 # commit
 インデックス(ステージ)上のコンテンツをユーザーのメッセージと共にリポジトリに保存します。
@@ -46,7 +44,14 @@ usage: git branch [options] [-r | -a] [--merged | --no-merged]
    or: git branch [options] [-r] (-d | -D) <branchname>...
    or: git branch [options] (-m | -M) [<oldbranch>] <newbranch>
 
+# clone
+既存のリポジトリをコピーする
+
+    git clone <repository>
+
 # pull
 ほかのリポジトリの変更点をローカルリポジトリにマージする
 
     git pull
+
+
