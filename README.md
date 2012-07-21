@@ -12,9 +12,6 @@ git cheat-sheet by necomimi group
 
     git add <filepattern...>
 
-- filepattern
-インデックスに追加するファイルを指定します
-
 
 # diff
 読み方：でぃふ
