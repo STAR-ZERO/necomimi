@@ -1,10 +1,16 @@
 git cheat-sheet by necomimi group
+======
+
 
 # commit
 インデックス(ステージ)上のコンテンツをユーザーのメッセージと共にリポジトリに保存します。
 
-## 例
-`git commit -m "hogehoge"`  hogehogeというコミットメッセージと共にコミットする
+    git commit [<options>]
+
+# fetch
+リモート側で変更をコミットして、そしてその変更を取得します。
+
+    git fetch [<options>] [<repository> [<refspec>...]]
 
 
 # add
