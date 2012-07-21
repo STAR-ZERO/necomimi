@@ -1,6 +1,4 @@
 git cheat-sheet by necomimi group
-======
-
 
 # commit
 インデックス(ステージ)上のコンテンツをユーザーのメッセージと共にリポジトリに保存します。
@@ -12,6 +10,12 @@ git cheat-sheet by necomimi group
 
     git fetch [<options>] [<repository> [<refspec>...]]
 
+# rebase
+ブランチの派生元を変更する
+
+    git rebase [-i | --interactive] [options] [--onto <newbase>]
+               [<upstream>] [<branch>]
+[mergeとrebase(サルでもわかるGit入門)](http://www.backlog.jp/git-guide/stepup/stepup1_4.html)
 
 # add
 新しいファイルや修正したファイルをインデックスに追加する
@@ -36,19 +40,24 @@ git cheat-sheet by necomimi group
     git status
 
 # branch
+ブランチを表示する。現在のブランチの先頭には米印がつく。
 
-* ブランチを表示する: 'git branch'
-* ブランチを作成する: 'git branch <branch>'
-* ブランチを削除する: 'git branch -d <branch>'
+    git branch
 
-usage: git branch [options] [-r | -a] [--merged | --no-merged]
-   or: git branch [options] [-l] [-f] <branchname> [<start-point>]
-   or: git branch [options] [-r] (-d | -D) <branchname>...
-   or: git branch [options] (-m | -M) [<oldbranch>] <newbranch>
+指定した名前でブランチを作成する。
 
+    git branch <branch>
+
+指定した名前のブランチを削除する。
+
+    git branch -d <branch>
 
 # clone
 既存のリポジトリをコピーする
 
     git clone <repository>
 
+# pull
+ほかのリポジトリの変更点をローカルリポジトリにマージする
+
+    git pull
