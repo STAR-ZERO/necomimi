@@ -1,4 +1,5 @@
 git cheat-sheet by necomimi group
+Last update: 2012.07.21
 
 # commit
 インデックス(ステージ)上のコンテンツをユーザーのメッセージと共にリポジトリに保存します。
