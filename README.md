@@ -1,4 +1,10 @@
 git cheat-sheet by necomimi group
+Last update: 2012.07.21
+=======
+
+# init
+まずはここから
+リポジトリを作成する
 
 # commit
 インデックス(ステージ)上のコンテンツをユーザーのメッセージと共にリポジトリに保存します。
@@ -61,6 +67,11 @@ git cheat-sheet by necomimi group
 ほかのリポジトリの変更点をローカルリポジトリにマージする
 
     git pull
+    
+# merge
+ローカルブランチのマージを行う
+
+    git merge <repository>
 
 # reset
 リポジトリをある状態に戻す。<paths>は'git log'で確認する。
