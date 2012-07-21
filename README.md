@@ -10,6 +10,12 @@ git cheat-sheet by necomimi group
 
     git fetch [<options>] [<repository> [<refspec>...]]
 
+# rebase
+ブランチの派生元を変更する
+
+    git rebase [-i | --interactive] [options] [--onto <newbase>]
+               [<upstream>] [<branch>]
+[mergeとrebase(サルでもわかるGit入門)](http://www.backlog.jp/git-guide/stepup/stepup1_4.html)
 
 # add
 新しいファイルや修正したファイルをインデックスに追加する
