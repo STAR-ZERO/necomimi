@@ -6,6 +6,12 @@ git cheat-sheet by necomimi group
 ## 例
 `git commit -m "hogehoge"`  hogehogeというコミットメッセージと共にコミットする
 
+# init
+まずはここから
+リポジトリを作成する
+
+    cd <directory>
+    git init
 
 # add
 新しいファイルや修正したファイルをインデックスに追加する
