@@ -1,4 +1,11 @@
-git cheat-sheet by necomimi group
+Last update: 2012.07.21
+
+# init
+まずはここから  
+リポジトリを作成する  
+
+    mkdir <directory>
+    git init
 
 # commit
 インデックス(ステージ)上のコンテンツをユーザーのメッセージと共にリポジトリに保存します。
