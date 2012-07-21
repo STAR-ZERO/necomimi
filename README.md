@@ -38,12 +38,15 @@ $ git diff ＜変更を確認したいファイル＞
     git status
 
 # branch
+ブランチを表示する。現在のブランチの先頭には米印がつく。
 
-* ブランチを表示する: 'git branch'
-* ブランチを作成する: 'git branch <branch>'
-* ブランチを削除する: 'git branch -d <branch>'
+    git branch
 
-usage: git branch [options] [-r | -a] [--merged | --no-merged]
-   or: git branch [options] [-l] [-f] <branchname> [<start-point>]
-   or: git branch [options] [-r] (-d | -D) <branchname>...
-   or: git branch [options] (-m | -M) [<oldbranch>] <newbranch>
+指定した名前でブランチを作成する。
+
+    git branch <branch>
+
+指定した名前のブランチを削除する。
+
+    git branch -d <branch>
+
