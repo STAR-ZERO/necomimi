@@ -12,3 +12,6 @@ about fast-forward
 ![no-fast-forward](http://cdn-ak.f.st-hatena.com/images/fotolife/s/sinsoku/20111025/20111025074946.png)  
 コミットBの歴史に、コミットAの歴史が含まれていない（Aのコミットが含まれていない）
 
+
+[ 図で分かるgit-mergeの--ff, --no-ff, --squashの違い - アジャイルSEを目指すブログ](http://d.hatena.ne.jp/sinsoku/20111025/1319497900)
+
