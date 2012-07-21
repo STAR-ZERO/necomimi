@@ -1,10 +1,16 @@
 git cheat-sheet by necomimi group
+======
+
 
 # commit
 インデックス(ステージ)上のコンテンツをユーザーのメッセージと共にリポジトリに保存します。
 
-## 例
-`git commit -m "hogehoge"`  hogehogeというコミットメッセージと共にコミットする
+    git commit [<options>]
+
+# fetch
+リモート側で変更をコミットして、そしてその変更を取得します。
+
+    git fetch [<options>] [<repository> [<refspec>...]]
 
 
 # add
@@ -12,19 +18,11 @@ git cheat-sheet by necomimi group
 
     git add <filepattern...>
 
-- filepattern
-インデックスに追加するファイルを指定します
-
 
 # diff
-読み方：でぃふ
 ファイルに加えられた変更点を表示する
 
-$ git diff ＜変更を確認したいファイル＞
-
-例）file1.txtとfile2.txtの差分が表示される
-`$ git diff -- file1.txt file2.txt`
-
+    git diff
 
 # push
 作業内容をリポジトリに送信する
@@ -49,4 +47,9 @@ $ git diff ＜変更を確認したいファイル＞
 指定した名前のブランチを削除する。
 
     git branch -d <branch>
+
+# clone
+既存のリポジトリをコピーする
+
+    git clone <repository>
 
