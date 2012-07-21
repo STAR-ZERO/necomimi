@@ -55,3 +55,8 @@ git cheat-sheet by necomimi group
 ほかのリポジトリの変更点をローカルリポジトリにマージする
 
     git pull
+    
+# merge
+ローカルブランチのマージを行う
+
+    git merge <repository>
