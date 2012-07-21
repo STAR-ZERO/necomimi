@@ -15,3 +15,7 @@ git cheat-sheet by necomimi group
 - filepattern
 インデックスに追加するファイルを指定します
 
+# push
+作業内容をリポジトリに送信する
+
+    git push <repository> <your branch>:<sendTo branch>
