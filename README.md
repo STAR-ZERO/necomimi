@@ -80,7 +80,7 @@ Last update: 2012.07.21
 リポジトリをある状態に戻す。<paths>は'git log'で確認する。
 インデックスとワーキングツリーも戻す場合は --hard オプションを指定する。
 
-    git rest [--hard] [<paths>|HEAD]
+    git reset [--hard] [<paths>|HEAD]
 
 # checkout
 ブランチの切り替え
