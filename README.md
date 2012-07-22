@@ -85,4 +85,4 @@ Last update: 2012.07.21
 # checkout
 ブランチの切り替え
 
-    git checkout <repository>
+    git checkout <barnch>
